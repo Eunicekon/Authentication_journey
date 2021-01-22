@@ -7,20 +7,24 @@ body {
   justify-content: center;
 }
 
-.topNav {
-  overflow: hidden;
-  background-color:#EAAF99 ;
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
-.topNav a{
+.navbar a {
   float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 12px;
+  color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
 }
 
-.topNav a:hover {
-  background-color: #ddd;
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
 }
