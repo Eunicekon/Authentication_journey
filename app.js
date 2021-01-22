@@ -6,19 +6,19 @@ const port = 8000;
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
+app.get("/", (req, res) => {
   res.render("home");
 });
 
-app.get('/aboutme', (req, res) => {
+app.get("/aboutme", (req, res) => {
   res.render("aboutme");
 });
 
-app.get('/myjourney', (req, res) => {
+app.get("/myjourney", (req, res) => {
   res.render("myjourney");
 });
 
-app.get('/login', (req, res) => {
+app.get("/login", (req, res) => {
   res.render("login");
 });
 
