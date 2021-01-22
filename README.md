@@ -4,8 +4,11 @@
 # To run app
 nodemon
 ## Stack
-Node.js App
-Express
+- Node.js App
+- Express
+- HTML
+- CSS
+- JAVASCRIPT
 ###
 ####
 #####
