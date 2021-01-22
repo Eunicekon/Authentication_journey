@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Eunicekon/Authentication_journey.git"
+    "url": "git+ssh://git@github.com/Eunicekon/makers_journey.git"
   },
   "author": "Eunice Kontor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Eunicekon/Authentication_journey/issues"
+    "url": "https://github.com/Eunicekon/makers_journey/issues"
   },
-  "homepage": "https://github.com/Eunicekon/Authentication_journey#readme",
+  "homepage": "https://github.com/Eunicekon/makers_journey#readme",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
