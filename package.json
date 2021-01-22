@@ -1,5 +1,5 @@
 {
-  "name": "authentication_journey",
+  "name": "makers_journey",
   "version": "1.0.0",
   "description": "User login with mongoose, mongoDB and mongoose",
   "main": "app.js",
