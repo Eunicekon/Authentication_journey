@@ -18,6 +18,10 @@ app.get("/myjourney", (req, res) => {
   res.render("myjourney");
 });
 
+app.get("/signup", (req, res) => {
+  res.render("signup");
+});
+
 app.get("/login", (req, res) => {
   res.render("login");
 });
