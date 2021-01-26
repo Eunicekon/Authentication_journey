@@ -1,3 +1,19 @@
-<div class="navbar">
-  <a class="active" href="/"> Back </a> 
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <title>My Makers Journey</title>
+</head>
+<body>
+  <div class="navbar">
+    <a class="active" href="/"> Back </a> 
+  </div>
+
+  <form action="/routes/users.js" method="POST">
+    <label for="name">First Name</label>
+    <input type="name" name="firstname" placeholder="Enter Name" value="<%= typeof name != 'undefined' ? name : ' ' %>">
+  </form>
+</body>
+</html>

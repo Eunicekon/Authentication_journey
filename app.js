@@ -19,7 +19,7 @@ db.once('open', function() {
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
-// app.use(expressEjsLayout);
+app.use(expressEjsLayout);
 
 //body parser
 app.use(express.urlencoded({extended : false}));
